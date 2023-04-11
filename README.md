@@ -1,6 +1,6 @@
 #Kontributor
-Raymond Javrico (13221068)
-Muhammad Darmansyah (13221074)
+Raymond Javrico (13221068)\
+Muhammad Darmansyah (13221074)\
 Danish Muhammad Hafidz (13221080)
 
 # TuBes-PMC
