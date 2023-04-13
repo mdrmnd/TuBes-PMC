@@ -31,11 +31,15 @@ int main (int argc, char *argv[]) {
   
   unsigned char key[CRYPTO_KEYBYTES];
 
-  char pl[CRYPTO_BYTES]="hello";
+  char pl[CRYPTO_BYTES];
   char chex[CRYPTO_BYTES]="";
   char keyhex[2*CRYPTO_KEYBYTES+1]="0123456789ABCDEF0123456789ABCDEF";
   char nonce[2*CRYPTO_NPUBBYTES+1]="000000000000111111111111";
    char add[CRYPTO_ABYTES]="";
+
+  printf("ASCON skut aweawe\n");
+  printf("Masukkan pesanmu bre : ");
+  scanf("%s",&pl);
 
   if( argc > 1 ) {
       strcpy(pl,argv[1]);
@@ -60,8 +64,6 @@ int main (int argc, char *argv[]) {
   hextobyte(keyhex,key);
   hextobyte(nonce,npub);
 
-  printf("ASCON light-weight cipher\n");
-  printf("Plaintext: %s\n",plaintext);
   printf("Key: %s\n",keyhex);
   printf("Nonce: %s\n",nonce);
   printf("Additional Information: %s\n\n",ad);
