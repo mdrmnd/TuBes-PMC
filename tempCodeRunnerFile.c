@@ -1,1 +1,0 @@
-strcpy(plaintext,pl);
