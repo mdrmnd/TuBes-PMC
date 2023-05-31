@@ -1,15 +1,15 @@
-**#Kontributor**\
+**# Kontributor**\
 Raymond Javrico (13221068)\
 Muhammad Darmansyah (13221074)\
 Danish Muhammad Hafidz (13221080)
 
-Emphasize Data Security on RFID (Radio Frequency Identification) Using ASCON-128 AEAD Algorithm
+**Emphasize Data Security on RFID (Radio Frequency Identification) Using ASCON-128 AEAD Algorithm**
 
-Abstract
+Abstract\
 RFID (Radio Frequency Identification) technology has gained widespread adoption due to its efficiency and convenience in various applications. However, concerns over data security and privacy have arisen, highlighting the need for robust security measures to protect sensitive information transmitted through RFID systems. This paper focuses on addressing these concerns by proposing the use of the ASCON-128 AEAD (Authenticated Encryption with Associated Data) algorithm as a security solution for RFID systems. The ASCON-128 AEAD algorithm provides a strong level of encryption and authentication, ensuring the confidentiality and integrity of RFID data. By emphasizing data security through the implementation of ASCON-128 AEAD, RFID systems can enhance their overall security posture and alleviate privacy concerns, thereby promoting the wider adoption and acceptance of RFID technology in various domains.
 Keywords - RFID, ASCON-128 AEAD, encryption, authentication.
 
-Summary
+Summary\
 In this section, we discussed the role of the ASCON algorithm in enhancing the security of RFID systems. We highlighted the lightweight nature of ASCON, which makes it suitable for resource-constrained devices like RFID tags. The algorithm provides robust security measures against various cryptographic attacks, ensuring the confidentiality, integrity, and authenticity of RFID data.
 
 We also identified several vulnerabilities associated with ASCON and RFID systems, such as implementation flaws, key management issues, side-channel attacks, cryptanalysis, key length considerations, fault injection attacks, and insecure protocols. It is crucial to address these vulnerabilities through secure coding practices, proper key management, countermeasures against side-channel attacks, ongoing research and analysis, appropriate key length selection, fault tolerance techniques, and the use of secure protocols.
